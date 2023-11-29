@@ -428,7 +428,6 @@ public:
 
 int main()
 {
-    opt();
     RentalSystem rentalSystem;
 
     Car car("Toyota", "Supra", 2020, 100, 4, "Petrol");
