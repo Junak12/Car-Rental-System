@@ -13,21 +13,25 @@ Vehicle Class
 
 Represents a generic vehicle with common attributes like make, model, year, and rental rate.
 Provides methods for displaying vehicle information and retrieving details.<br>
+
 1.Car Class (Inherits from Vehicle)
 
 Represents a specific type of vehicle with additional attributes such as the number of doors and fuel type.
 Overrides the displayInfo method to include car-specific details.
 Implements the equality operator for comparing two cars.<br>
+
 2.Motorcycle Class (Inherits from Vehicle)
 
 Represents a motorcycle with an additional attribute for the bike type.
 Overrides the displayInfo method to include motorcycle-specific details.
 Implements the equality operator for comparing two motorcycles.<br>
+
 3.Truck Class (Inherits from Vehicle)
 
 Represents a truck with attributes for load capacity and cargo type.
 Overrides the displayInfo method to include truck-specific details.
 Implements the equality operator for comparing two trucks.<br>
+
 4.RentalSystem Class
 
 Manages the available and rented vehicles of each type (Car, Motorcycle, Truck).
@@ -35,6 +39,7 @@ Provides methods to add vehicles, rent, and return vehicles.
 Includes methods to display information about available and rented vehicles.
 Calculates the total rental cost based on the rental rate and duration.<br>
 5.Main Functionality
+
 Adding Vehicles: The main function demonstrates adding instances of Car, Motorcycle, and Truck to the rental system.<br>
 
 6.Renting Vehicles: Users can select the type of vehicle they want to rent (Car, Motorcycle, or Truck) and specify the make and model. The system checks for availability and calculates the rental cost based on the duration.<br>
