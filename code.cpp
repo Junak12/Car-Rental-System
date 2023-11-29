@@ -440,7 +440,6 @@ int main()
 
     while (true)
     {
-        // Options for the user
         cout << endl;
         cout << "===== Vehicle Rental System =====" << endl;
         cout << "1. Rent a Vehicle" << endl;
